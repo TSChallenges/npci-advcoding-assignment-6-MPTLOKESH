@@ -8,17 +8,17 @@ public class AppConfig {
 
     @Bean
     public Product tumbler() {
-        Product p = new Product();
-        p.setId(1);
-        p.setName("Tumbler");
-        return p;
+        Product p1 = new Product();
+        p1.setId(1);
+        p1.setName("Tumbler");
+        return p1;
     }
 
     @Bean
     public Product bucket() {
-        Product p = new Product();
-        p.setId(2);
-        p.setName("Bucket");
-        return p;
+        Product p2 = new Product();
+        p2.setId(2);
+        p2.setName("Bucket");
+        return p2;
     }
 }

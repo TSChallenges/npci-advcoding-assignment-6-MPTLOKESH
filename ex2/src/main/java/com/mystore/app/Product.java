@@ -1,7 +1,7 @@
 package com.mystore.app;
 
-public class Product {
-    
+class Product {
+
     private int id;
     private String name;
 
@@ -9,27 +9,14 @@ public class Product {
         System.out.println("In Product constructor");
     }
 
-    // Getter methods
-    public int getId() {
-        return id;
-    }
+    public int getId() { return id; }
+    public String getName() { return name; }
 
-    public String getName() {
-        return name;
-    }
-
-    // Setter methods
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setId(int id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
 
     @Override
     public String toString() {
         return "Product{id=" + id + ", name='" + name + "'}";
     }
-
 }
